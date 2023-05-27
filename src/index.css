@@ -1,0 +1,794 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin: auto;
+}
+.container{ 
+  max-width: 90em;
+  margin:  0 auto;
+  margin: auto;
+}
+nav{
+  width: 100%;
+  height: 10.3125em;
+}
+.top-nav{
+  width: 89%;
+  height: 3.5em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 0 5em;
+  background-color: #f6f6f6;
+}
+.phone{
+  width: 9.314375em;
+  height: 1.4375em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.875em;
+  align-content: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.phone img{
+  width: 18px;
+  height: 18px;
+}
+.num{
+  font-family: Hind Siliguri;
+  width: 6.25em;
+  height: 1.4375em;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.4375em;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #232323;
+  margin: 0;
+
+}
+.mail{
+  width: 15.25em;
+  height: 1.4375em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.896875em;
+  align-content: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.mail img{
+  width: 1.478125em;
+  height: 1.125em;
+}
+.message{
+  font-family: Hind Siliguri;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.4375em;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 12.875em;
+  height: 1.4375em;
+  color: #232323;
+  margin: 0;
+}
+.free{
+font-family: Hind Siliguri;
+width: 16.25em;
+height: 1.8125em;
+color: #9e3040;
+margin: 0.8125em 0 0 0 ;
+font-size: 1.125em;
+font-weight: 600;
+line-height: 1.8125em;
+letter-spacing: 0em;
+text-align: center;
+}
+.location{
+  width: 22.375em;
+  height: 1.4375em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.896875em;
+  align-content: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.location img{
+  width: 0.84375em;
+  height: 1.125em;
+}
+.locate{
+  width: 22.5625em;
+  height: 1.4375em;
+  font-family: Hind Siliguri;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.4375em;
+  letter-spacing: 0em;
+  margin: 0;
+  color: #232323;
+}
+.down-nav{
+  width: 89%;
+  height: 6.8375em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 0 5em;
+  align-content: center;
+  align-items: center
+}
+.logo{
+  width: 16.75em;
+  height: 1.375em;
+}
+.nav-list{
+  width: 28.5em;
+  height: 1.8125em;;
+}
+.nav-list ul{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-list ul li{
+  width: 7.125em;
+  height: 1.8125em;
+}
+.nav-list ul li a{
+  color: #686868;
+  text-decoration: none;
+}
+.nav-icon{
+  width: 11.6875em;
+  height: 3.0625em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1.25em;
+}
+.icon-box{
+  height: 3.0625em;
+  width: 3.0625em;
+  box-shadow: 0 0 0.0625em grey;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+}
+.icon-box img{
+  width: 1.375em;
+  height: 1.375em;
+}
+.sign-up{
+  width: 7.875em;
+  height: 3.0625em;
+  border: none;
+  border-radius: 0.3125em;
+  background-color: #9e3040;
+  color: white;
+  font-family: Hind Siliguri;
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.8125em;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  display: grid;
+  align-content: center;
+  cursor: pointer;
+}
+.shop-container{
+  width: 89%;
+  height: 46.875em;
+  padding: 0 5em;
+  background-image: url(./images/tow-door.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  align-content: center;
+  justify-items: left;
+}
+.shop-container h1{
+  width: 9.125em;
+  height: 2.375em;
+  font-size: 4em;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0em;
+  margin: 0;
+  color: white;
+}
+.shop-container p{
+  width: 20.625em;
+  height: 1.5em;
+  font-family: Open Sans;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 2.0625em;
+  letter-spacing: 0em;
+  margin: 14px 0 32px 0;
+  color: white;
+}
+.shop-container button{
+  width: 10.5em;
+  height: 3em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.625em;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0.3125em;
+  background-color: white;
+  font-family: Hind Siliguri;
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.8125em;
+  letter-spacing: 0em;
+  color: #9e3040;
+  cursor: pointer;
+}
+.shop-container button img{
+  width: 1.875rem;
+  height: 0.75rem;
+}
+.upside{
+  height: 24em;
+  width: 100%;
+  background-image: url(./images/line-back.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.upside-grid{
+  width: 65.6875em;
+  height: 12.125em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 8.4375em;
+}
+
+.up-img-box{
+  width: 6.25em;
+  height: 6.25em;
+  box-shadow: 0 0 1em rgb(179, 176, 176);
+  background-color: white;
+  margin: auto;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.up-h2{
+  width: 13.375rem;
+  height: 3.0625rem;
+  font-family: Hind Siliguri;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 3.0625rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #232323;
+  margin: 22px auto 0 auto;
+}
+.up-p{
+  width: fit-content;
+  height: 1.4375rem;
+  font-family: Open Sans;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.4375rem;
+  letter-spacing: 0em;
+  margin: 0 auto;
+}
+.featured{
+  width: 89%;
+  height: 75.75em;
+  padding: 0 5em;
+}
+.featured-head{
+  width: 17.3125rem;
+  height: 3.625rem;
+  margin: 0 auto;
+  color: #232323;
+  font-family: Hind Siliguri;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 3.625rem;
+  letter-spacing: 0em;
+}
+.featured-body{
+  width: 80rem;
+  height: 56.4375rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2.3125rem;
+  margin-top: 2.5rem;
+}
+.explore{
+  width: 34.25rem;
+  height: 56.4375rem;
+  background-image: url(./images/redback.png);
+}
+.explore h1{
+  width: 22.8125rem;
+  height: 8.5rem;
+  font-family: Hind Siliguri;
+  font-size: 3.625rem;
+  font-weight: 600;
+  line-height: 4.25rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin: 11.8125rem auto 0 auto;
+
+}
+.products{
+  width: 43.5rem;
+  height: 56.4375rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 3.125rem;
+  grid-column-gap: 2.3125rem;
+}
+.prod-card{
+  width: 20.5625rem;
+  height: 26.125rem;
+  border-radius: 0.625rem;
+  background-color: #f3f5f6;
+}
+.prod-card img{
+  width: 18.75rem;
+  height: 11.875rem;
+  border-radius: 0.9375rem;
+  margin: 1.40625rem 0.90625rem;
+}
+.prod-card p{
+  width: 18.75rem;
+  height: 5.125rem;
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232323;
+  margin: 0 0.90625rem;
+}
+.price-grid{
+  margin: 1.8125rem auto 0 auto;
+  width: 18.75rem;
+  height: 2.625rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0.90625rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center; 
+}
+.price-grid h2{
+  width: 4.8125rem;
+  height: 2.4375rem;
+  font-family: Hind Siliguri;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.4375rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  color: #9e3040;
+}
+.price-grid p{
+  width: 3.0625rem;
+  height: 1.625rem;
+  font-family: Hind Siliguri;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #686868;
+  text-decoration: line-through;
+}
+.price-grid button{
+  width: 6.875rem;
+  height: 2.625rem;
+  border: none;
+  border-radius: 0.3125rem;
+  background-color: #232323;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  text-align: center;
+  display: grid;
+  align-content: center;
+  cursor: pointer;
+}
+.feature-button{
+  width: 162px;
+  height: 46px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9e3040;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin: 82px auto;
+  display: grid;
+  align-content: center;
+  color: white;
+  cursor: pointer;
+}
+.bamboo{
+  width: 89%;
+  height: 48.5em;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  grid-gap: 0.75em;
+  padding: 0 5em;
+}
+.organic{
+  width: 32.4375em;
+  height: 21.28125em;
+  padding: 3.75em 0;
+  background-color: #f3f5f6;
+  border-radius: 1.875em;
+}
+.organic h1{
+  width: 28.875rem;
+  height: 3.625rem;
+  font-family: Hind Siliguri;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3.625rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9e3040;
+  margin: 0 auto;
+}
+.organic p{
+  width: 28.5625rem;
+  height: 10.9375rem;
+  font-family: Open Sans;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 2.3125rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232323;
+  margin: 0.75rem auto 2.3125rem auto;
+}
+.organic-butt{
+  width: 10.5em;
+  height: 3em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.625em;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0.3125em;
+  background-color: #232323;
+  font-family: Hind Siliguri;
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.8125em;
+  letter-spacing: 0em;
+  color: white;
+  cursor: pointer;
+  margin-left: 4.5em;
+}
+.organic-butt img{
+  width: 1.875rem;
+  height: 0.75rem;
+}
+.towel{
+  width: 46.8125em;
+  height: 35.875em;
+  border-radius: 30px;
+}
+.towel img{
+  width: 46.8125em;
+  height: 35.875em;
+  border-radius: 1.875em;
+}
+.trending{
+  width: 89%;
+  height: 65.875em;
+  padding: 0 5em;
+}
+.trending-grid{
+  width: 100%;
+  height: 43.6875em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1.5em;
+  margin: 2.5em 0 3.75em 0;
+  justify-content: center;
+}
+.trend-box{
+  width: 25.625em;
+  height: 43.625em;
+  border-radius: 0.625em;
+  box-shadow: 0 0 0.5em rgb(207, 205, 205);
+}
+.trend-box img{
+  width: 25.625em;
+  height: 25.625em;
+  border-radius: 0.625em;
+  margin-bottom: 1.9375em;
+}
+.trend-box h2{
+  width: 20rem;
+  height: fit-content;
+  font-family: Hind Siliguri;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4375rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  margin: 0 0 0.8125rem 1.125rem;
+  color: #9e3040;
+}
+.trend-box p{
+  width: 23.3125rem;
+  height: 7.8125rem;
+  font-family: Open Sans;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 2.0625rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  margin: 0 0 0 1.125rem;
+}
+.testimonial{
+  width: 89%;
+  height: 25.375em;
+  padding: 0 5em;
+  margin-bottom: 5.625em;
+}
+.quote{
+  width: 100%;
+  height: 19.125em;
+  margin-top: 2.5em;
+  border-radius: 1.875em;
+  background-color: #9e3040;
+  background-image: url(./images/up-quote.png), url(./images/down-quote.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 4em 1.875em, 68.661875em 11.1875em;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+.quote-text{
+  width: 51.625rem;
+  height: 5.9375rem;
+  font-family: Open Sans;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 2.125rem;
+  letter-spacing: 0rem;
+  text-align: center;
+  color: white;
+}
+.quote-foot{
+  width: 95px;
+  height: 39px;
+  font-family: Hind Siliguri;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  color: white;
+  margin: o auto;
+}
+.gallery{
+  width: 89%;
+  height: 38em;
+  padding: 0 5em;
+  margin-bottom: 90px;
+}
+.gallery-grid{
+  height: 31.875em;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-self: center;
+  grid-gap: 1.875em;
+  margin-top: 2.5em;
+}
+.middle{
+  width: 31.875em;
+  height: 31.875em;
+}
+.side-grid{
+  height: 31.875em;
+  width: 22.1875em;
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 1.875em;
+}
+.side-grid img{
+  width: 22.1875em;
+  height: 15em;
+}
+.touch{
+  width: 89%;
+  height: 204px;
+  padding: 0 5em;
+  margin-bottom: 100px;
+}
+.touch-body{
+  width: 601px;
+  height: 57px;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 20px auto;
+}
+.mail-grid{
+  width: 36.5625em;
+  height: 3.0625em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0;
+  margin: auto;
+}
+.email{
+  width: 25rem;
+  height: 1.4375rem;
+  border-radius: 5px;
+  padding: 0.78125rem 0 0.78125rem 1.4375rem;
+  margin: 0;
+  border: 1px solid #9e304170;
+  outline: none;
+}
+.mail-grid button{
+  width: 10.125rem;
+  height: 3.0625rem;
+  border-radius: 0.3125rem;
+  font-family: Hind Siliguri;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.8125rem;
+  letter-spacing: 0em;
+  color: white;
+  background-color: #9e3141;
+  border: none;
+}
+.footer{
+  width: 89%;
+  height: 385px;
+  padding: 0 5em;
+  background-color: #f3f5f6;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 14.71875em;
+}
+
+.foot-head{
+  width: 10.3125em;
+  height: 3.0625rem;
+  font-family: Hind Siliguri;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 3.0625rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232323;
+  margin: 0 0 1.25rem 0;
+}
+.foot-box-1{
+  width: 10.3125rem;
+  height: 14.75rem;
+}
+.foot-box-1 ul{
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+}
+.foot-box-1 ul li{
+  width: 100%;
+  height: 1.4375rem;
+  font-family: Open Sans;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.4375rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1.5625rem;
+}
+.foot-box-1 ul li a{
+  text-decoration: none;
+  color: #232323;
+}
+.foot-box-2{
+  width: 18.375rem;
+  height: 16.25rem;
+}
+.foot-box-2 ul{
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+}
+.foot-box-2 ul li{
+  width: 100%;
+  height: fit-content;
+  font-family: Open Sans;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.4375rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1.8125rem;
+  display: grid;
+  grid-template-columns: 1.5rem auto ;
+  grid-gap: 1.25rem;
+  align-items: center;
+}
+.foot-box-2 ul li img{
+  width: 1.478125rem;
+  height: 1.125rem;
+}
+.foot-box-2 ul li a{
+  text-decoration: none;
+  color: #232323;
+}
+.foot-box-3{
+  width: 22.5rem;
+  height: 16.0625rem;
+}
+.accept-grid{
+  width: 22.5rem;
+  height: 6.99rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  grid-row-gap: 1.885rem;
+  grid-column-gap: 1.71875rem;
+  margin-bottom: 2.54125rem;
+}
+.accept-grid img{
+  width: 4.09375rem;
+  height: 2.5525rem;
+}
+.hr{
+  width: 21.875rem;
+  margin: auto;
+  margin-bottom: 0.96875rem;
+}
+.close{
+  width: 20.1875rem;
+  height: 1.25rem;
+  font-family: Open Sans;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0em;
+  margin: 0 auto;
+  color: #303030;
+}
